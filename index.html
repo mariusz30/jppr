@@ -1,0 +1,131 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<title>JPPR</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Programy Rozwojowe">
+    <meta name="keywords" content="programy rozwojowe">
+    <meta name="author" content="cobo software">
+ 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen">
+
+	<script type="text/javascript" src="js/include_script.js"></script>
+	<!--[if lt IE 8]><div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div><![endif]-->
+  	<!--[if lt IE 9]>
+    	<link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+	   	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <link href="css/ie.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+</head>
+<body>
+<!--web site spinner-->
+	<div id="webSiteLoader"><span></span></div>
+<!--button back top-->
+	<div id="back-top"></div>
+<!--page spinner-->
+	<div id="pageLoader"><span></span></div>
+    
+
+<!--content wrapper-->
+	<div id="wrapper">
+<!--header-->
+    <header>
+        <div class="container _relative">
+            <!--logo and company name-->		
+            <h1>
+			<a href="index.html"><img src="img/logo.png" alt=""></a> 
+			</h1>
+            <!--menu-->	  
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <ul class="sf-menu">
+						 <li><a href="index.html"><div class="base_text">home</div></a></li>
+                        <li><a href="oferta.html"><div class="base_text">oferta</div></a></li>
+                        <li><a href="onas.html"><div class="base_text">o nas</div></a></li>
+                        <li class="_marginNull _paddingNull _backgroundNull"><a href="kontakt.html"><div class="base_text">kontakt</div></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extraBg1"></div>
+        </div>
+        <div class="divider2"></div>
+    </header>
+<!--content-->	
+        <div class="containerHolder">
+
+    		<section>
+                <div class="container">
+                    <div class="dynamicContent">
+                        <div class="row">
+                            <div class="span6">
+                                <ul class="sliders">
+                                    <li><img src="img/slide_pic1.jpg" alt=""></li>
+                                    <li><img src="img/slide_pic2.jpg" alt=""></li>
+                                    <li><img src="img/slide_pic3.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="span6 _relative padding8">
+                                <div class="extraBg4"></div>
+                                <div class="sliderHolder">
+                                    <div id="slider_simple1">
+                                        <ul class="slider_set">
+                                            <li>
+                                                <h2 class="textStyle4"><span class="textStyle5">Wiemy jak działa</span><br><span>psychologia w biznesie</span></h2>
+                                                <p class="_marginNull">Wiedza psychologiczna zdecydowanie ułatwia osiągnięcie celów biznesowych. Pozwala zrozumieć mechanizmy, którymi kierują się ludzie i podejmować adekwatne decyzje. </p>
+                                            </li>
+                                            <li>
+                                                <h2 class="textStyle4"><span  class="textStyle5">Wzmacniamy wiarę</span><br><span>we własne możliwości</span></h2>
+                                                <p class="_marginNull">Nic nie jest tak ważne, jak wiara we własne możliwości. To główna siła napędowa sukcesu.</p>
+                                            </li>
+                                            <li>
+                                                <h2 class="textStyle4"><span  class="textStyle5">Wspieramy</span><br><span>w osiąganiu sukcesu</span></h2>
+                                                <p class="_marginNull">Sukces to nie tylko dobry pomysł. To przede wszystkim umiejętność przełożenia pomysłu w jego realizację.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="sliderBtnHolder">
+                                            <a class="sliderPrev" href="#"><img src="img/sprite_prev_btn.png" alt=""></a>
+                                            <a class="sliderNext" href="#"><img src="img/sprite_next_btn.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    		</section>
+        </div>
+        <!--footer-->
+    		<footer>
+                <div class="container _relative">
+                    <div class="extraBg2"></div>
+    				<div class="privacy_text"><span class="textStyle1">JPPR</span> &copy; 2014 | All rights reserved | Prepared by Cobo Software
+					<!-- {%FOOTER_LINK} -->
+					</div> 
+                    <!--
+					<ul class="social_list">
+                        <li><a href="#"><img src="img/social_icon1.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/social_icon2.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/social_icon3.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/social_icon4.png" alt=""></a></li>
+                    </ul>-->
+                </div>
+    		</footer>
+            
+	</div>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+       
+            $("#slider_simple1").slider_simple({
+                prevBtn:$('.sliderPrev'),
+                nextBtn:$('.sliderNext')
+            });
+        
+    </script>
+<!-- coded by Coder Shin -->
+</body>
+</html>
